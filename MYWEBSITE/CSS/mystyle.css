@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+}
+header {
+    color: rgb(127, 127, 222);
+}
+
+h1 {
+    color:red;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.image-item {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgb(0,0,0,0.1);
+    text-align: center;
+}
+.image-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.description {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
